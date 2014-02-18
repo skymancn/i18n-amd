@@ -9,23 +9,27 @@ require(['i18n'], function (i18n) {
 
 	i18n.set();
 	console.log(i18n._('Hello World'));
-
+	console.log(i18n.datetime());
+	
 	i18n.set({
 		'lang': 'zh-tw',
 		'path': ''
 	});
 	console.log(i18n._('Hello World'));
+	console.log(i18n.datetime());
 
 	i18n.set({
 		'lang': 'en-us',
 		'path': ''
 	});
 	console.log(i18n._('Hello World'));
+	console.log(i18n.datetime());
 
 	i18n.set({
 		'lang': 'ja',
 		'path': ''
 	});
 	console.log(i18n._('Hello World'));
+	console.log(i18n.datetime());
 	
 });

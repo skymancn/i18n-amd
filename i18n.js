@@ -75,7 +75,7 @@ define(['jquery'], function () {
 
         var result = {},
             xmlhttp = {},
-            url = (0 !== path.length ? path.replace(/\/$/, '') + '/' : '') + 'i18n/' +langcode + '.js';
+            url = (0 !== path.length ? path.replace(/\/$/, '') + '/' : '') + 'nls/' +langcode + '.js';
 
         //jQuery ajax
         if (window.jQuery) {
