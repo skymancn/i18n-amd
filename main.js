@@ -21,5 +21,11 @@ require(['i18n'], function (i18n) {
 		'path': ''
 	});
 	console.log(i18n._('Hello World'));
+
+	i18n.set({
+		'lang': 'ja',
+		'path': ''
+	});
+	console.log(i18n._('Hello World'));
 	
 });
